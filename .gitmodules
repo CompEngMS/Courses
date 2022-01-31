@@ -1,9 +1,12 @@
-[submodule "advanced-operating-systems-virtualization"]
-	path = advanced-operating-systems-virtualization
-	url = https://github.com/compengms/advanced-operating-systems-virtualization
-[submodule "algorithm-design"]
-	path = algorithm-design
+[submodule "Courses/Algorithm Design"]
+	path = Courses/Algorithm Design
 	url = https://github.com/compengms/algorithm-design
-[submodule "computer-network-security"]
-	path = computer-network-security
+[submodule "Courses/Computer and Network Security"]
+	path = Courses/Computer and Network Security
 	url = https://github.com/compengms/computer-network-security
+[submodule "Courses/Data Management"]
+	path = Courses/Data Management
+	url = https://github.com/compengms/data-management
+[submodule "Dead Courses/Advanced Operating Systems and Virtualization"]
+	path = Dead Courses/Advanced Operating Systems and Virtualization
+	url = https://github.com/compengms/advanced-operating-systems-virtualization

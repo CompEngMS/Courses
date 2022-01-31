@@ -10,3 +10,45 @@
 [submodule "Dead Courses/Advanced Operating Systems and Virtualization"]
 	path = Dead Courses/Advanced Operating Systems and Virtualization
 	url = https://github.com/compengms/advanced-operating-systems-virtualization
+[submodule "Courses/Distributed Systems"]
+	path = Courses/Distributed Systems
+	url = https://github.com/compengms/distributed-systems
+[submodule "Courses/Capacity Planning"]
+	path = Courses/Capacity Planning
+	url = https://github.com/compengms/capacity-planning
+[submodule "Courses/Formal Methods"]
+	path = Courses/Formal Methods
+	url = https://github.com/compengms/formal-methods
+[submodule "Courses/Human Computer Interaction"]
+	path = Courses/Human Computer Interaction
+	url = https://github.com/compengms/human-computer-interaction
+[submodule "Courses/Interactive Graphics"]
+	path = Courses/Interactive Graphics
+	url = https://github.com/compengms/interactive-graphics
+[submodule "Courses/Machine Learning"]
+	path = Courses/Machine Learning
+	url = https://github.com/compengms/machine-learning
+[submodule "Courses/Network Infrastructures"]
+	path = Courses/Network Infrastructures
+	url = https://github.com/compengms/network-infrastructures
+[submodule "Courses/Practical Network Defense"]
+	path = Courses/Practical Network Defense
+	url = https://github.com/compengms/practical-network-defense
+[submodule "Courses/Secure Computation"]
+	path = Courses/Secure Computation
+	url = https://github.com/compengms/secure-computation
+[submodule "Courses/Security Governance"]
+	path = Courses/Security Governance
+	url = https://github.com/compengms/security-governance
+[submodule "Courses/Software Engineering"]
+	path = Courses/Software Engineering
+	url = https://github.com/compengms/software-engineering
+[submodule "Courses/Visual Analytics"]
+	path = Courses/Visual Analytics
+	url = https://github.com/compengms/visual-analytics
+[submodule "Courses/Web Information Retrieval"]
+	path = Courses/Web Information Retrieval
+	url = https://github.com/compengms/web-information-retrieval
+[submodule "Courses/Web Security and Privacy"]
+	path = Courses/Web Security and Privacy
+	url = https://github.com/compengms/web-security-privacy

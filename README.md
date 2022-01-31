@@ -28,6 +28,7 @@ If some course is missing [click here](https://github.com/compengms/readme/issue
 
 <details>
 <summary>✍🏻 List of courses</summary>
+
 - [Advanced Operating Systems and Virtualization](https://github.com/compengms/advanced-operating-systems-virtualization)
 - [Algorithm Design](https://github.com/compengms/algorithm-design)
 - [Computer and Network Security](https://github.com/compengms/computer-network-security)
@@ -48,4 +49,5 @@ If some course is missing [click here](https://github.com/compengms/readme/issue
 - [Visual Analytics](https://github.com/compengms/visual-analytics)
 - [Web Information Retrieval](https://github.com/compengms/web-information-retrieval)
 - [Web Security and Privacy](https://github.com/compengms/web-security-privacy)
+
 </details>

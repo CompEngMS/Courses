@@ -1,0 +1,9 @@
+[submodule "advanced-operating-systems-virtualization"]
+	path = advanced-operating-systems-virtualization
+	url = https://github.com/compengms/advanced-operating-systems-virtualization
+[submodule "algorithm-design"]
+	path = algorithm-design
+	url = https://github.com/compengms/algorithm-design
+[submodule "computer-network-security"]
+	path = computer-network-security
+	url = https://github.com/compengms/computer-network-security

@@ -1,0 +1,25 @@
+name: Update Submodules
+
+on:
+  schedule:
+    # Runs once a month
+    - cron: '0 0 1 * *'   
+  push:
+    branches:
+      - 'main'
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+        with:
+          submodules: 'true'  # Ensure submodules are checked out as well
+
+      - name: Update submodules to latest commit
+        run: |
+          git submodule update --remote --merge  # Update to the latest commit of each submodule
+          git add .  # Stage the updated submodule references
+          git commit -m "Update submodules to latest commits" || echo "No changes to commit"  # Commit the updates if there are any
+          git push  # Push the changes to the repository

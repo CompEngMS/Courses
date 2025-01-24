@@ -1,8 +1,8 @@
 name: Update Submodules
 
 on:
+  # Runs once a month or on push
   schedule:
-    # Runs once a month
     - cron: '0 0 1 * *'   
   push:
     branches:
@@ -16,6 +16,14 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: 'true'  # Ensure submodules are checked out as well
+
+      - name: Reset submodules to the latest commit (hard reset)
+        run: |
+          # Update submodules to the latest commit from their repositories
+          git submodule update --remote --recursive
+          
+          # Reset each submodule to its latest commit (to fix unrelated histories)
+          git submodule foreach 'git reset --hard HEAD'  # Hard reset for each submodule
 
       - name: Update submodules to latest commit
         run: |

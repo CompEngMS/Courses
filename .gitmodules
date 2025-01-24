@@ -52,3 +52,6 @@
 [submodule "Courses/Web Security and Privacy"]
 	path = Courses/Web Security and Privacy
 	url = https://github.com/compengms/web-security-privacy
+[submodule "Courses/Advanced-Information-Systems-Security-Blockchain"]
+	path = Courses/Advanced-Information-Systems-Security-Blockchain
+	url = https://github.com/CompEngMS/Advanced-Information-Systems-Security-Blockchain
